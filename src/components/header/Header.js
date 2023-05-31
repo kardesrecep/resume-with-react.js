@@ -9,7 +9,7 @@ import Copyright from "./copyright/Copyright";
 
 const Header = () => {
   return (
-    <header className="header pull-left">
+    <header className="header pull-left" >
       <MobileMenu />
       <Avatar />
       <Name/>

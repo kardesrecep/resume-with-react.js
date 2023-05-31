@@ -14,15 +14,32 @@
     padding: 0 20px 0 0;
 }
 
-.header .social-icons ul li a {
-    color: #FFF;
-}
-
-.header .social-icons ul li a svg {
-    margin-left:2.5rem;
+.header .soc.header .social-icons {
+    margin: 0 0 34px;
+  }
+  
+  .header .social-icons ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header .social-icons ul li {
+    display: inline-block;
     font-size: 2rem;
-}
-
-.header .social-icons ul li:last-child {
+    padding: 0 20px 0 0;
+    margin-left: 2rem;
+  }
+  
+  .header .social-icons ul li a {
+    color: #fff;
+  }
+  
+  .header .social-icons ul li:last-child {
     padding-right: 0;
-}
+  }
+  @media only screen and (max-height: 600px) {
+    .header .social-icons {
+      margin: 0 0 15px;
+    }
+  }

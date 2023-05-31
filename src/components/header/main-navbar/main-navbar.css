@@ -25,7 +25,16 @@
     padding: 5rem 0;
 }
 
-.header .main-nav ul li a:hover,.header .main-nav ul li a:focus {
-    color: #FFF;
+.header .main-nav ul li:hover,
+.header .main-nav ul li :focus  {
+    color: whitesmoke;
+   opacity: .6;
     text-decoration: none;
+    cursor: pointer;
 }
+@media only screen and (max-height: 600px) {
+    .header .main-nav ul li {
+      padding-bottom: 10px;
+    }
+  }
+

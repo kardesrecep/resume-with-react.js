@@ -1,10 +1,6 @@
 import React from "react";
-import {
-  TfiLinkedin,
-  TfiGithub
-} from "react-icons/tfi";
+import { TfiLinkedin, TfiGithub, TfiEmail } from "react-icons/tfi";
 import "./social-icons.css";
-
 
 const SocialIcons = () => {
   return (
@@ -15,6 +11,13 @@ const SocialIcons = () => {
             <TfiLinkedin />
           </a>
         </li>
+
+        <li>
+          <a href="mailto:kardesrecep7@gmail.com">
+            <TfiEmail />
+          </a>
+        </li>
+
         <li>
           <a href="https://github.com/kardesrecep">
             <TfiGithub />
